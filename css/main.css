@@ -1,0 +1,125 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header__top {
+    color: #fff;
+    padding: 20px;
+    background: linear-gradient(135deg, #3800AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__top i {
+    flex-shrink: 0;
+    font-size: 40px;
+    margin-right: 24px;
+}
+
+.header__top-text {
+    width: 165px;
+    color: #FFF;
+    font-family: "Comfortaa";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header__menu {
+    background: rgba(1, 3, 5, 0.8);
+    backdrop-filter: blur(7.5px);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: end;
+}
+
+.logo img {
+    width: 100px;
+    margin-right: 5px;
+}
+
+.logo span {
+    color: #fff;
+    font-family: "Comfortaa";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.menu-link {
+    display: flex;
+    color: #fff;
+    font-family: "Comfortaa";
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 30px;
+    padding: 42px 0;
+    border-bottom: 2px solid transparent;
+}
+
+.menu-link:hover {
+    color: #ED8E00;
+    border-color: #ED8E00;
+}
+
+.header__content {
+    height: 640px;
+    background: url(../img/kong.png) no-repeat center center / cover;   
+}
+
+.header__content-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 15, 25, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__content-title {
+    color: #fff;
+    font-size: 65px;
+    font-family: "Roboto";
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.header__content-desc {
+    color: #fff;
+    font-family: "Comfortaa";
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.orange-btn,
+.dark-btn {
+    border-radius: 4px;
+    background: #F18128;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 17px 48px;
+}
+
+.dark-btn {
+    background: #040D1F;
+    color: #fff;
+    margin-left: 30px;
+}
